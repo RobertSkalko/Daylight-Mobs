@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "daylight_mobs",
+  "version": "1.0.0",
+  "name": "Daylight Mobs",
+  "description": "Stops mobs from burning in daylight.",
+  "authors": [
+    "mcrobertx22"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "custom": {
+    "modmenu:api": true
+  },
+  "license": "",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main":   ["com.robertx22.daylight_mobs.main.CommonInit"]		
+  },
+  "mixins": [
+    "daylight_mobs.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.9.0",
+    "minecraft": "1.16.1"
+  },
+  "suggests": {
+    "age-of-exile": "*",
+	"balance-of-exile": "*"
+  }
+  
+}
