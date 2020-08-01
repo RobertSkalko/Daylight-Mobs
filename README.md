@@ -1,1 +1,1 @@
-Library mod
+Stops mobs from burning in daylight
